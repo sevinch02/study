@@ -127,7 +127,7 @@ accordion.forEach(acco =>{
   };
 });
 
-document.querySelector('.load-more .btn').onclick = () =>{
+document.querySelector('.load-more .btn').onClick = () => {
   document.querySelectorAll('.courses .box-container .hide').forEach(show =>{
     show.style.display = 'block';
   });
